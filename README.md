@@ -54,5 +54,7 @@ Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue 
 
 ## Challenge Summary
 
+The purpose of this challenge is perform unsupervised machine learning on a cryptocurrencies data set. There were 4 major parts to this analysis. First step was to preprocessed the data into the proper format for the analysis. Second step was reducing data dimensions using PCA. Third step was clustering crytocurrencies using K-means. Finally step was vizualizing the results.  This analysis show there are 4 distinct clusters of data.
+
 
 
