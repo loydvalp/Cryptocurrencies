@@ -40,11 +40,17 @@ Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue 
 
     2. Once you have reduced the data dimensions, create a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. Use the crypto_df.index as the index for this new DataFrame.
     
+![](image/ReducingData.PNG)
+    
 ### Clustering Cryptocurrencies Using K-means
 
     1. Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
     2. Once you define the best value for K, run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Use the pcs_df to run the K-means algorithm.
     3. Create a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class. 
+
+
+
+![](image/clustering.PNG)
 
 ### Visualizing Results
 
