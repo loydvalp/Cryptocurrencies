@@ -61,14 +61,17 @@ I ran the K-means algorithm on the dataset to predict 4 cluster for cryptocurren
     1. Create a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point.
     2. Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
     3. Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
-    
-![](image/newplot.png)
+
+To visualize the clusters of the cryptocurrencies I created a 3D scatter plot:
+
+![](image/newplot.PNG)
+
+Then I created a data table with all the currently tradeble cryptocurrencies using hvplot library:
 
 ![](image/table.PNG)
 
-## Challenge Summary
+I created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinsSupply" to constrast the number of available coins versus the total number of mined coins using hvplot library as well.
 
-The purpose of this challenge is perform unsupervised machine learning on a cryptocurrencies data set. There were 4 major parts to this analysis. First step was to preprocessed the data into the proper format for the analysis. Second step was reducing data dimensions using PCA. Third step was clustering crytocurrencies using K-means. Finally step was vizualizing the results.  This analysis show there are 4 distinct clusters of data.
 
 
 
