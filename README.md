@@ -1,3 +1,5 @@
+![](image/crypto.jpg)
+
 # Cryptocurrencies
 
 ## Project Overview
