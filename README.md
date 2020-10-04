@@ -47,8 +47,12 @@ Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue 
     1. Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
     2. Once you define the best value for K, run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Use the pcs_df to run the K-means algorithm.
     3. Create a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class. 
+    
+Before I could use the clustering KMeans algorithm from sklearn, I had to create an elbow curve to find out the optimal value for K.  Elbow curve turned out showing that the most drastical corner is at the point 4.
 
+![](image/elbowChart.PNG)
 
+I ran the K-means algorithm on the dataset to predict 4 cluster for cryptocurrencies' data.  I created a summary DataFrame containing Cryptocurrencies' parameters, PCA dimensions, and predicted cluster numbers stored in a column "class".
 
 ![](image/clustering.PNG)
 
@@ -57,6 +61,10 @@ Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue 
     1. Create a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. You should include the following parameters on the plot: hover_name="CoinName" and hover_data=["Algorithm"] to show this additional info on each data point.
     2. Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
     3. Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
+    
+![](image/newplot.png)
+
+![](image/table.PNG)
 
 ## Challenge Summary
 
