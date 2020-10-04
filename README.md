@@ -53,3 +53,6 @@ Start by loading the data in a Pandas DataFrame named “crypto_df.” Continue 
     3. Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
 
 ## Challenge Summary
+
+
+
