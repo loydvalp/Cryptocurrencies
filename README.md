@@ -74,5 +74,9 @@ Then I created a data table with all the currently tradeble cryptocurrencies usi
 
 I created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinsSupply" to constrast the number of available coins versus the total number of mined coins using hvplot library as well.
 
+![](image/plot.PNG)
 
+Change TotalCoinSupply to numeric
+
+![](image/plot1.PNG)
 
