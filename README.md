@@ -19,7 +19,7 @@ The goals for this challenge:
     
 ## Resources
 
-Data Source: crypto_data.csv Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3
+Data Source: crypto_data.csv Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3, image source: https://robbreport.com/lifestyle/news/why-now-is-the-best-time-to-invest-in-cryptocurrencies-2898743/
 
 ## Challenge Overview
 
@@ -73,7 +73,6 @@ Then I created a data table with all the currently tradeble cryptocurrencies usi
 ![](image/table.PNG)
 
 I created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinsSupply" to constrast the number of available coins versus the total number of mined coins using hvplot library as well.
-
 
 
 
